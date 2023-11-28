@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { Box, Container, Flex, Text } from '@chakra-ui/react';
 
 interface CategoryProps {

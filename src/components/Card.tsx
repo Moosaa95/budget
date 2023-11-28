@@ -1,4 +1,4 @@
-import React,  {FC} from 'react';
+import   {FC} from 'react';
 import { Box, Flex, Img, Text } from '@chakra-ui/react';
 
 import CircularProgressBar from './Circular';

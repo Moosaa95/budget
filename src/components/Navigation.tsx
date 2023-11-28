@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Box, Flex, Text,  Stack, Image } from '@chakra-ui/react';
 import { home, reports, budget, profile, chat } from '../assets';
 import { Link as ReactRouterLink } from 'react-router-dom';
@@ -19,7 +19,7 @@ const Navigation = () => {
     { name: 'Profile', icon: profile, path: '/profile' },
   ];
 
-  const [active, setActive] = useState<number>(3);
+  const [active, setActive] = React.useState<number>(3);
 
   return (
     <Flex

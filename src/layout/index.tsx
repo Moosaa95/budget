@@ -1,4 +1,4 @@
-import React from "react"
+// import React from "react"
 import {Navigation} from "../components"
 import {Container, Box} from "@chakra-ui/react"
 import { Outlet } from 'react-router-dom'
